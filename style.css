@@ -41,19 +41,23 @@
   }
   
   .answers {
-    background-color: white;
+    /*background-color: white;*/
     position: relative;
     width: 700px;
     height: 400px;
     margin-left: auto;
     margin-right: auto;
     top: 140px;
+    text-align: center;
   }
-  
-  /*input {
-    height: 50%;
-    width: 50%;
-  }*/
+
+  .start-quiz{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    color: white;
+    background: transparent;
+  }
   
   div {
     background: grey;
@@ -84,4 +88,35 @@
     position: relative;
     left: 380px;
     bottom: 220px;
+  }
+
+  .feedback {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .next-question {
+    text-align: center;
+  }
+  
+  .next {
+    color: white;
+    background: transparent;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .end-feedback {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .retry {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    background: transparent;
   }
